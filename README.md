@@ -7,5 +7,5 @@ Generate GAN samples for T0, T1 and T4 in order to balance the dataset
 Classify stages of bladder cancer
 ## Evaluation
 ROC and AUC of individual class are calculated, beside recall, precision and F1 showed as report
-![./eval/ROC.jpg]()
-![./eval/report.png]()
+![](./eval/ROC.jpg)
+![](./eval/report.png)
