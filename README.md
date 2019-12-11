@@ -17,7 +17,12 @@ https://pan.baidu.com/s/18VrdVupcTqqy6cG--Lmp4g
 Captcha Code ：48pi 
 
 ## Usage
-You can try download the cropped image first, and try to run code from **dcgan** folder for T0/T1/T4 images, except that u need small changes to paths variables. 
+1. You can try download the cropped image first, and try to run code from **dcgan** folder for T0/T1/T4 images, except that u need small changes to paths variables. 
+2. After you finish all the augmentation works, try training by running:
+
+python main.py
+
+Also, some changes has to be made like path variable and cuda device etc..
 
 ## DCGAN sampler
 First, I choose useful slices from an CT serie where bladder is presented. But then I found some class dataset are insufficient. There are only 8 sample from T0! So I generated GAN samples for T0, T1 and T4, and merge sub-classes for T2 and T3 in order to balance the dataset, here's the comparison between original and generated dataset sub-classes samples count:
@@ -25,7 +30,8 @@ First, I choose useful slices from an CT serie where bladder is presented. But t
 ![](./eval/compare.png)
 
 ## Resnet50
-Classify stages of bladder cancer
+Classify stages of bladder cancer, here I just use fine-tunning + pretrained model for classification.
+
 ## Evaluation
 ROC and AUC of individual class are calculated, beside recall, precision and F1 showed as report
 ![](./eval/ROC.jpg)
