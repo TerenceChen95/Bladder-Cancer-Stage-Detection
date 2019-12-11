@@ -4,12 +4,16 @@ Detect bladder and subtract the bladder window (this code is updating)
 ## Dataset
 CT/MRI images are collected from TCIA-BLCA (The Cancer Imaging Archive), you can download original data from:
 https://wiki.cancerimagingarchive.net/display/Public/TCGA-BLCA
-These data include
+
+These data include:
 - CT/MRI Series
-- csv files regarding patient status and staging info where patientID is an important key I use for naming preprocessing images. 
+- CSV files regarding patient status and staging info where patientID is an important key I use for naming preprocessing images. 
 Besides, I upload detect-and-crop bladder images here:
-BaiduNetdisk Link：https://pan.baidu.com/s/18VrdVupcTqqy6cG--Lmp4g 
+BaiduNetdisk Link：
+https://pan.baidu.com/s/18VrdVupcTqqy6cG--Lmp4g 
+
 Captcha Code ：48pi 
+
 ## Usage
 You can try download the cropped image first, and try to run code from **dcgan** folder for T0/T1/T4 images, except that u need small changes to paths variables. 
 
