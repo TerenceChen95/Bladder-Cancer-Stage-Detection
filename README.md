@@ -8,6 +8,7 @@ https://wiki.cancerimagingarchive.net/display/Public/TCGA-BLCA
 These data include:
 - CT/MRI Series
 - CSV files regarding patient status and staging info where patientID is an important key I use for naming preprocessing images. 
+
 Besides, I upload detect-and-crop bladder images here:
 BaiduNetdisk Link：
 https://pan.baidu.com/s/18VrdVupcTqqy6cG--Lmp4g 
