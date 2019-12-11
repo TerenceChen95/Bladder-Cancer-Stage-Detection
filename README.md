@@ -20,7 +20,7 @@ Captcha Code ：48pi
 1. You can try download the cropped image first, and try to run code from **dcgan** folder for T0/T1/T4 images, except that u need small changes to paths variables. 
 2. After you finish all the augmentation works, try training by running:
 
-python main.py
+- python main.py
 
 Also, some changes has to be made like path variable and cuda device etc..
 
