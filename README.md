@@ -9,12 +9,12 @@ These data include:
 - CT/MRI Series
 - CSV files regarding patient status and staging info where patientID is an important key I use for naming preprocessing images. 
 
-Besides, I upload detect-and-crop bladder images here:
+Besides, I upload detect-and-crop bladder images and the GAN label here:
 BaiduNetdisk Link：
 
-https://pan.baidu.com/s/18VrdVupcTqqy6cG--Lmp4g 
+https://pan.baidu.com/s/1zOp-11bdr3Tbl3W5yjAiUw 
 
-Captcha Code ：48pi 
+Captcha Code ：jz7h
 
 ## Usage
 1. You can try download the cropped image first, and try to run code from **dcgan** folder for T0/T1/T4 images, except that u need small changes to paths variables. 
