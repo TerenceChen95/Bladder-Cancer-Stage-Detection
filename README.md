@@ -1,6 +1,21 @@
 # Bladder-Cancer-Stage-Detection
 ## Faster-RCNN Bladder Detection
-Detect bladder and subtract the bladder window (this code is updating)
+Thanks to Jianwei Yang and Jiasen Lu, I render their pytorch version of faster-RCNN for bladder detection and got excellent results.
+
+@article{jjfaster2rcnn,
+    Author = {Jianwei Yang and Jiasen Lu and Dhruv Batra and Devi Parikh},
+    Title = {A Faster Pytorch Implementation of Faster R-CNN},
+    Journal = {https://github.com/jwyang/faster-rcnn.pytorch},
+    Year = {2017}
+}
+
+@inproceedings{renNIPS15fasterrcnn,
+    Author = {Shaoqing Ren and Kaiming He and Ross Girshick and Jian Sun},
+    Title = {Faster {R-CNN}: Towards Real-Time Object Detection
+             with Region Proposal Networks},
+    Booktitle = {Advances in Neural Information Processing Systems ({NIPS})},
+    Year = {2015}
+}
 ## Dataset
 CT/MRI images are collected from TCIA-BLCA (The Cancer Imaging Archive), you can download original data from:
 https://wiki.cancerimagingarchive.net/display/Public/TCGA-BLCA
