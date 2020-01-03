@@ -1,6 +1,6 @@
 # Bladder-Cancer-Stage-Detection
 ## Faster-RCNN Bladder Detection
-Thanks to Jianwei Yang and Jiasen Lu, I render their pytorch version of faster-RCNN for bladder detection and got excellent results.
+Thanks to **Jianwei Yang** and **Jiasen Lu**, I render their pytorch version of faster-RCNN for bladder detection and got excellent results.
 
 @article{jjfaster2rcnn,
     Author = {Jianwei Yang and Jiasen Lu and Dhruv Batra and Devi Parikh},
@@ -16,6 +16,10 @@ Thanks to Jianwei Yang and Jiasen Lu, I render their pytorch version of faster-R
     Booktitle = {Advances in Neural Information Processing Systems ({NIPS})},
     Year = {2015}
 }
+Some detection Results:
+![](./eval/TCGA-ZF-A9R20.jpg)
+![](./eval/TCGA-ZF-A9R20_det.jpg)
+
 ## Dataset
 CT/MRI images are collected from TCIA-BLCA (The Cancer Imaging Archive), you can download original data from:
 https://wiki.cancerimagingarchive.net/display/Public/TCGA-BLCA
